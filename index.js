@@ -31,7 +31,9 @@ app.get('/id/:steamid', function(req, res) {
  */
 
 app.post('/', function(req, res) {
+
   res.send('ns:http://specs.openid.net/auth/2.0\nis_valid:true\n');
+
 });
 
 
