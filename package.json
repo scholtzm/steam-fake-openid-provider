@@ -1,0 +1,17 @@
+{
+  "name": "steam-fake-openid-provider",
+  "version": "1.0.0",
+  "description": "Fake Steam OpenID validation endpoint that can bypass certain libraries and allows the attacker to supply arbitrary identity.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Michael Scholtz <michael.scholtz@outlook.com>",
+  "license": "MIT"
+}
