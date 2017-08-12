@@ -2,7 +2,7 @@
 
 Fake Steam OpenID validation endpoint that can bypass certain libraries and allows the attacker to supply arbitrary identity.
 
-The exploit was originally reported [here](https://www.reddit.com/r/SteamBot/comments/4msigy/psa_warning_scammers_exploiting_vulnerability/) and was later confirmed to be inside [passport-steam](https://github.com/liamcurry/passport-steam/issues/35) **[has been fixed since then]**, [steam-login](https://github.com/cpancake/steam-login/issues/8) **[not fixed]** and possibly other libraries.
+The exploit was originally reported [here](https://www.reddit.com/r/SteamBot/comments/4msigy/psa_warning_scammers_exploiting_vulnerability/) and was later confirmed to be inside [passport-steam](https://github.com/liamcurry/passport-steam/issues/35) **[now fixed]**, [steam-login](https://github.com/cpancake/steam-login/issues/8) **[now fixed]** and possibly other libraries.
 
 The reason why this is possible is because these libraries did/do not verify validation endpoint as well as claimed identity format that is provided directly by the user. As per Steam documentation, the claimed identity format is: `http://steamcommunity.com/openid/id/<steamid>`
 
